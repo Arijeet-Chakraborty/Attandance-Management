@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: IBM Plex Sans;
+        }
+        .container{
+            width: 736px;
+            height: 557px;
+            flex-shrink: 0;
+            border: 1px solid rgba(0, 0, 0, 0.256);
+            border-radius: 8px;
+            background: #FFF;
+            box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.25);
+            margin: 80px 0 0 400px;            
+
+        }
+        .banner{
+            width: 736px;
+            height: 50px;
+            flex-shrink: 0;
+            border-radius: 8px 8px 0px 0px;
+            background: #EFFFF4;
+            margin-top: -15px;
+        }
+        .banner p{
+            padding: 17px 0 17px 0 ;
+            color: #008A45;
+            text-align: center;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 16px; /* 114.286% */
+        }
+        .sign-in{
+            display: flex;
+            margin-top: 24px;
+        }
+        .heading h1{
+            color: #000;
+            font-family: IBM Plex Sans;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-left: 36px;
+            margin-right: 304px;
+        }
+        .create-new p{
+            color: #3D3D3D;
+            text-align: right;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-top: 25px;
+        }
+        .create-new p span{
+            color: #2F6CE5;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+                    }
+        .login-page{
+            display: flex;
+            margin:24px 0 0 36px;
+        }
+        .login-form input{
+            width: 320px;
+            height: 46px;
+            flex-shrink: 0;
+            border-radius: 2px 2px 0px 0px;
+            border: 1px solid #D9D9DB;
+            background: #F7F8FA;
+            padding: 7px;
+        }
+        #btn{
+            width: 320px;
+            height: 40px;
+            flex-shrink: 0;
+            border-radius: 20px;
+            background: #2F6CE5;
+            margin-top: 19px;
+            border: none;
+            color: #FFF;
+            text-align: center;
+            font-family: IBM Plex Sans;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 16px; /* 114.286% */
+        }
+
+        #sign-with-facebook{
+            width: 320px;
+            height: 38px;
+            flex-shrink: 0;
+            border-radius: 2px;
+            border: 0.6px solid #D9D9DB;
+            background: #FFF;
+            margin-top: 24px;
+            color: #000;
+            font-family: IBM Plex Sans;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 16px; /* 114.286% */
+        }
+        #sign-with-facebook img{
+            width: 16px;
+            height: 16px;
+            flex-shrink: 0;
+            margin: 0 11px 0 0;
+        }
+        #sign-with-google{
+            width: 320px;
+            height: 38px;
+            flex-shrink: 0;
+            border-radius: 2px;
+            border: 0.6px solid #D9D9DB;
+            background: #FFF;
+            margin-top: 8px;
+            color: #000;
+            font-family: IBM Plex Sans;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 16px; /* 114.286% */
+
+        }
+        #sign-with-google img{
+            width: 16px;
+            height: 16px;
+            flex-shrink: 0;
+            margin: 0 11px 0 0;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="banner">
+            <p>Let's learn, share & inspire each other with our passion for computer engineering. Sign up now 🤘🏼</p>
+        </div>
+        <div class="sign-in">
+            <div class="heading">
+                <h1>Sign In</h1>
+            </div>
+            <div class="create-new">
+                <p>Don’t have an account yet?<a href="https://www.linkedin.com/in/subhadiphazra/"><span>Create new for free!</span></a></p>
+            </div>
+        </div>
+        <div class="login-page">
+            <div class="login-form">
+                <form>
+                    <input type="email" placeholder="Email" id="email">
+                    <input type="password" placeholder="Password" id="Password">
+                    <button id="btn">Sign In</button>
+                </form>
+                <button id="sign-with-facebook"><img src="public/images/f-logo-rgb-blue-1024.png">Sign in with Facebook</button>
+                <button id="sign-with-google"><img src="public/images/search.svg"> Sign in with Google</button>
+            </div>
+            <div class="login-image">
+                <img src="public/images/atg-illustration.png">
+            </div>
+
+        </div>
+        
+    </div>
+</body>
+</html>
